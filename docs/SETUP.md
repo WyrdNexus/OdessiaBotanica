@@ -5,9 +5,13 @@
     * `> git -v`
 2. Configure mariaDb, with a user and password.
     * add the connection info to [config.yml::doctrine](../app/config/config.yml).
-3. Startup the local server.
+3. Run Composer (php), yarn (js,css), and doctrine (mysql)
+    * `> composer update`
+    * `> yarn update`
+    * `> php bin/console doctrine:schema:update --force`
+4. Startup the local server.
     * `> php bin/console server:run`
-4. Check that the site loads.
+5. Check that the site loads.
     * [localhost:8000](http://localhost:8000)
     
 ## phpStorm
