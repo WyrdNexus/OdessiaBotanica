@@ -1,0 +1,19 @@
+{
+  "name": "Odessia-Botanica",
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Anthony Chiboucas",
+      "email": "wyrdnexus@gmail.com",
+      "role": "ChiefTechnologyOfficer|CodeMonkey"
+    }
+  ],
+  "contributors": [
+    "Derrick Fargo <docfargo@gmail.com> (http://www.google.com)",
+    "Alexander Garber <alexandergarber@gmail.com> (http://www.google.com)"
+  ],
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.11.0"
+  }
+}
