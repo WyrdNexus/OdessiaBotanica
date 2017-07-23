@@ -22,3 +22,22 @@ To make development simpler, we suggest using IntelliJ's phpStorm, with a few Pl
     * PHP Annotations
     * PHP Toolbox
     * Symfony Plugin
+    
+# Assets
+
+Styles and scripts are in web/assets and managed by webpack-encore.
+Webpack-encore collects and compiles files according to webpack.config.js.
+
+**Currently:**
+* web/build/* compiled from:
+    * web/assets/css
+    * web/assets/js
+
+To build the assets run a command:
+
+* compile dev assets once:
+    * `> yarn run assets:dev`
+* compile dev assets on file change
+    * `> yarn run assets:watch`
+* compile minified
+    * `> yarn run assets:build`

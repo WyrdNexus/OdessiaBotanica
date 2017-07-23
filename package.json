@@ -14,6 +14,16 @@
     "Alexander Garber <alexandergarber@gmail.com> (http://www.google.com)"
   ],
   "devDependencies": {
-    "@symfony/webpack-encore": "^0.11.0"
+    "@symfony/webpack-encore": "^0.11.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.4.2",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.4.2"
+  },
+  "scripts": {
+    "assets:watch": "encore dev --watch",
+    "assets:dev": "encore dev",
+    "assets:build": "encore production"
   }
 }
