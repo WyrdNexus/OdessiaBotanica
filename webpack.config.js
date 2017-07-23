@@ -14,6 +14,9 @@ Encore
     // will output as web/build/app.js
     .addEntry('app', './web/assets/js/core.js')
 
+    // Vue.js
+    .enableVueLoader()
+
     // will output as web/build/global.css
     .addStyleEntry('global', './web/assets/css/core.scss')
 
